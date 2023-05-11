@@ -1,0 +1,26 @@
+/* 0 ~ 575px */
+.classe {
+    background-color: red;
+    width: 5vw;
+    height: 5vw;
+}
+/* (sm, small) */
+@media (min-width: 431px) {
+    .classe {background-color: blue;
+    }
+}
+/* (md, medium) */
+@media (min-width: 769px) {
+    .classe {background-color: green;
+    }
+}
+/* (lg, large) */
+@media (min-width: 1024px) {
+    .classe {background-color: yellow;
+    }
+}
+/* (xl, extra-large) */
+@media (min-width: 1201px) {
+    .classe {background-color: pink;
+    }
+}
